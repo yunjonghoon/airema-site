@@ -159,3 +159,6 @@ input:focus,select:focus,textarea:focus{border-color:#2d64d8;box-shadow:0 0 0 3p
 
 @media(max-width:760px){.brand-logo .logo-horizontal{height:36px}.footer .brand-logo .logo-horizontal{height:44px}.brand-logo small{font-size:8.5px;letter-spacing:.16em}}
 @media(max-width:360px){.brand-logo .logo-horizontal{height:30px}}
+.detail-hero-sports{background:linear-gradient(90deg,rgba(7,19,34,.9),rgba(7,19,34,.6) 60%,rgba(7,19,34,.4)),url('assets/sports-fans.jpg?v=2') center/cover no-repeat #0c203c}
+.detail-hero-entertainment{background:linear-gradient(90deg,rgba(7,19,34,.9),rgba(7,19,34,.6) 60%,rgba(7,19,34,.4)),url('assets/entertainment-stage.jpg') center/cover no-repeat #0c203c}
+.detail-hero-smb{background:linear-gradient(90deg,rgba(7,19,34,.88),rgba(7,19,34,.55) 60%,rgba(7,19,34,.35)),url('assets/smb-office.jpg') center/cover no-repeat #0c203c}
