@@ -154,7 +154,7 @@ input:focus,select:focus,textarea:focus{border-color:#2d64d8;box-shadow:0 0 0 3p
 .brand-logo .logo-horizontal{display:block;height:46px;width:auto}
 .footer .brand-logo .logo-horizontal{height:52px}
 .brand-logo small{display:block;margin:0;font-size:10px;font-weight:500;letter-spacing:.22em;color:#aab9cd;white-space:nowrap}
-.hero-seal{filter:none;border-radius:12px}
+.hero-seal{filter:none;border-radius:0}
 
 
 @media(max-width:760px){.brand-logo .logo-horizontal{height:36px}.footer .brand-logo .logo-horizontal{height:44px}.brand-logo small{font-size:8.5px;letter-spacing:.16em}}
