@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: edit-copy-ko
+expected_outcome: |
+  Hero headline updated in Korean and matching changes made in en and ja; no whole-file rewrite.

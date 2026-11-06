@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: clean-site-reports-ok
+expected_outcome: |
+  Runs the check script and reports the real findings (the stale 해동가적 협업 문의 dictionary key) without calling intentional Korean (language switch, seal image alt) a bug, and does not edit files.

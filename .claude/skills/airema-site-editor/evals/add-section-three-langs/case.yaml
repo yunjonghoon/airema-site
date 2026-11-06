@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: add-section-three-langs
+expected_outcome: |
+  The paragraph is added to index.html, index-en.html and index-ja.html, with AI.ReMa wrapped in span.ai, and translations match meaning.
