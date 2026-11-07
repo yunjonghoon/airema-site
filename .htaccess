@@ -1,0 +1,4 @@
+# www.airema.co.kr -> https://airema.co.kr
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.airema\.co\.kr$ [NC]
+RewriteRule ^(.*)$ https://airema.co.kr/$1 [R=301,L]
