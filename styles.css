@@ -162,3 +162,23 @@ input:focus,select:focus,textarea:focus{border-color:#2d64d8;box-shadow:0 0 0 3p
 .detail-hero-sports{background:linear-gradient(90deg,rgba(7,19,34,.9),rgba(7,19,34,.6) 60%,rgba(7,19,34,.4)),url('assets/sports-fans.jpg?v=2') center/cover no-repeat #0c203c}
 .detail-hero-entertainment{background:linear-gradient(90deg,rgba(7,19,34,.9),rgba(7,19,34,.6) 60%,rgba(7,19,34,.4)),url('assets/entertainment-stage.jpg') center/cover no-repeat #0c203c}
 .detail-hero-smb{background:linear-gradient(90deg,rgba(7,19,34,.88),rgba(7,19,34,.55) 60%,rgba(7,19,34,.35)),url('assets/smb-office.jpg') center/cover no-repeat #0c203c}
+.founder-photo{display:block;width:100%;max-width:250px;height:auto;margin-top:34px;filter:brightness(.88);-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 24%,#000 100%),linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(180deg,transparent 0,#000 24%,#000 100%),linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%);mask-composite:intersect}
+#leadership{background:linear-gradient(90deg,rgba(7,19,34,0) 0,rgba(7,19,34,.1) 28%,rgba(7,19,34,.86) 50%,rgba(7,19,34,.95) 100%),linear-gradient(180deg,rgba(10,26,48,0) 0,rgba(10,26,48,0) 28vw,#0a1a30 53vw),url('assets/leadership-bg.jpg') left top/100% auto no-repeat #0a1a30}
+.founder-card .years{font-size:50px;margin-top:0}
+.founder-card .years small{font-size:15px}
+@media(min-width:761px){#leadership .eyebrow{margin-left:44%}#leadership .founder{grid-template-columns:38% 1fr;column-gap:6%;align-items:start}#leadership .founder-card{display:grid;grid-template-columns:1fr auto;column-gap:24px;align-items:end;margin-top:calc(38vw - 135px)}#leadership .founder-card .years{grid-column:2;grid-row:1/span 3;align-self:end}}
+@media(max-width:760px){#leadership{padding-top:330px;background:linear-gradient(180deg,rgba(10,26,48,0) 0,rgba(10,26,48,0) 110px,#0a1a30 300px),url('assets/leadership-bg.jpg') left top/auto 300px no-repeat #0a1a30}.founder-card .years{font-size:44px}}
+html[lang=ko] .founder-card h3{letter-spacing:.45em}
+@media(min-width:761px){#leadership{padding-top:44px}#leadership .founder-card{margin-top:calc(38vw - 90px)}}
+.founder-card .years{font-size:37.5px}
+@media(max-width:760px){.founder-card .years{font-size:33px}}
+@media(max-width:760px){#leadership{padding-top:34px;background:linear-gradient(90deg,rgba(10,26,48,0) 0,rgba(10,26,48,0) 38%,rgba(10,26,48,.9) 54%),linear-gradient(180deg,rgba(10,26,48,0) 0,rgba(10,26,48,0) 110px,#0a1a30 300px),url('assets/leadership-bg.jpg') left top/auto 300px no-repeat #0a1a30}#leadership .eyebrow{margin-left:50%}#leadership .founder{gap:22px}#leadership .founder-card{margin-left:50%;border-top:0;padding-top:0}}
+.detail-hero-maista{position:relative;overflow:hidden;isolation:isolate}
+.detail-hero-maista .hero-video{filter:brightness(.75) saturate(.9)}
+.detail-hero-maista::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(7,19,34,.92),rgba(7,19,34,.6) 55%,rgba(7,19,34,.35))}
+.detail-hero-maista .hero-video-toggle{bottom:24px}
+.ai-green{color:#39ff14}
+.light .ai-green{color:#10b600}
+@media(min-width:761px){.product-split{grid-template-columns:.85fr 1.15fr;gap:60px}.product-image{padding:0;overflow:hidden}.product-image img{display:block;width:157%;max-width:none;max-height:none;height:auto;margin-left:-57%;box-shadow:none;border-radius:0}.product-image figcaption{padding:16px}}
+.product-image{background:#fff}
+#experience{background:#fff}
